@@ -1,0 +1,22 @@
+{
+  "name": "@toxicwind/pseudobrookite",
+  "version": "0.1.0",
+  "description": "Geode prompt-forensics pseudocompiler: hyper-tiktoken analysis, token-walking pseudo-subagents, structured squawk log, unreliable-narrator provenance. Turns a prompt into a token IR and compiles it into verified observations.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "analyze": "bun ./src/index.ts",
+    "build": "bun build ./src/index.ts --target=bun --outdir ./dist",
+    "test": "bun test",
+    "typecheck": "bunx tsc --noEmit -p tsconfig.json",
+    "validate": "bun run typecheck && bun run test"
+  },
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.15"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.2",
+    "typescript": "^5.7.2"
+  }
+}
