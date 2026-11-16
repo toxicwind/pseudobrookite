@@ -2,7 +2,7 @@
 /**
  * save-all.ts — branch → tmp commit → micro merge to main → push.
  *
- * The estate's forward-only save primitive. Never --reset, never force-push,
+ * The Pens's forward-only save primitive. Never --reset, never force-push,
  * never loses remote state: on divergence a backup ref is created first.
  *
  * Usage:
@@ -30,7 +30,7 @@ const branch = `wip/save-all-${stamp}`;
 
 async function git(...args: string[]): Promise<string> {
   // Route through `bash -c`: direct execve of `git` is signal-killed on this
-  // estate (kairos command-time enforcement wraps git via the shell shim).
+  // Pens (kairos command-time enforcement wraps git via the shell shim).
   const cmd = `git -C ${JSON.stringify(repo)} ${args.map((a) => argsShellQuote(a)).join(" ")}`;
   const p = spawn(["bash", "-c", cmd], { stdout: "pipe", stderr: "pipe" });
   const stdoutP = new Response(p.stdout).text();

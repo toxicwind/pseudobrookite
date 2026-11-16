@@ -158,7 +158,7 @@ pseudo-subagents.
 
 > im not confused i said whar i said
 
-> estate should exisr i thought
+> Pens should exisr i thought
 
 ## Register observations (analyzer seed)
 

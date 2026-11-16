@@ -1,7 +1,7 @@
 /**
  * walk.ts — token walking with isolated slice-workers (pseudo-subagents).
  *
- * "Token walking" (estate-proprietary): an agent traverses the prompt's token
+ * "Token walking" (Pens-proprietary): an agent traverses the prompt's token
  * list by walking ADJACENT tokens, treating the list as its working memory.
  * The implementation here splits the list into W contiguous windows with a
  * 1-token boundary overlap and hands each window to a worker whose ENTIRE

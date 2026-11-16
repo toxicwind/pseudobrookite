@@ -49,4 +49,4 @@ silently merged into facts. Only tool-observed state is `verified`. See
 
 ## License
 
-Estate internal — all rights reserved. (Geode pen product; see `pens/geode/`.)
+Pens internal — all rights reserved. (Geode pen product; see `pens/geode/`.)

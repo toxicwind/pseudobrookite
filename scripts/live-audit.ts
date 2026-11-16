@@ -51,7 +51,7 @@ const walk = (dir: string, root = true): void => {
     const subtask = kind === "docs" ? `review + link from an index doc`
       : kind === "code" ? `typecheck + add to build/test surface`
       : kind === "data" ? `verify freshness + provenance header`
-      : kind === "artifacts" ? `archive under docs/ or scratch-archive per estate doctrine`
+      : kind === "artifacts" ? `archive under docs/ or scratch-archive per Pens doctrine`
       : `triage: move or delete with provenance`;
     rows.push({ file: relative(target, p), kind, size: st.size, ext, subtask });
   }

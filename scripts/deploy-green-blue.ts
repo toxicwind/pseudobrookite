@@ -4,7 +4,7 @@
  *
  * green = the currently-running release; blue = the new build. Build blue,
  * healthcheck it, swap the `current` symlink, and KEEP green on disk for
- * instant rollback. Never deletes the prior release (estate doctrine).
+ * instant rollback. Never deletes the prior release (Pens doctrine).
  *
  * Usage:
  *   bun scripts/deploy-green-blue.ts <service-dir> --build <cmd> --health <url> [--retries N]
