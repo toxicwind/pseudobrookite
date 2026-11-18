@@ -1,0 +1,766 @@
+{
+  "specPath": "spec/prompt-specimen-2026-10-28.md",
+  "enc": "o200k_base",
+  "workers": 8,
+  "totalTokens": 1215,
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Prompt Specimen — 2026-10-28 (verbatim capture)",
+      "body": "Captured verbatim from the architect's 2026-10-28 request (\"uhhh collect tau aborted…\nconvert into runnable skills\"). This file is the INPUT ARTIFACT for pseudobrookite's\nanalysis pipeline — hyper-tiktoken scan, token walking, squawk-log pseudo-subagents.",
+      "chars": 255,
+      "tokens": 61,
+      "entropy": 5.906890595608517,
+      "pseudoPerplexity": 59.999999999999936,
+      "topTokens": [
+        [
+          "'s",
+          2
+        ],
+        [
+          "the",
+          2
+        ],
+        [
+          "-log",
+          1
+        ],
+        [
+          "-sub",
+          1
+        ],
+        [
+          "-t",
+          1
+        ],
+        [
+          "\").",
+          1
+        ],
+        [
+          "(\"",
+          1
+        ],
+        [
+          "10",
+          1
+        ],
+        [
+          "202",
+          1
+        ],
+        [
+          "28",
+          1
+        ],
+        [
+          "aborted",
+          1
+        ],
+        [
+          "act",
+          1
+        ]
+      ],
+      "topPairs": []
+    },
+    {
+      "index": 1,
+      "heading": "The tailrec prompt (turn 0, quoted block)",
+      "body": "> id like you to target the dangling work, but instesd of giving me the prompt enginerring, convert\n> into runable skills: `Your last response \"guessed\" (this is not what I mean about \"speculative\",\n> \"speculation\" requires research, it is not \"guessing\") or was poisoned by web, web sources are to be\n> treated as \"unreliable narrator\", as the \"error rate\" claimed, with provenance, and treated as such\n> without research, does not jump in October 2026, please find non mainstream or correlated sources\n> egarding the requirements beyond sections 8 and 9, please implement a system where both sections\n> enforce the use of subagents or, if those are unavailable, utilize pseudo-embedding-based subagents.\n> These should be specific yet \"unpoisoned\"—a term frequently referenced in prompt engineering\n> documentation—and incorporate \"token walking,\" which is our proprietary concept where an agent\n> leverages its pseudo-embedding tokens to traverse adjacent tokens from the user's prompt, acting as\n> a token list. Furthermore, please treat the entire prompt as a \"perplexity embedding\" to be analyzed\n> by a pseudo-embedding pseudocompiler that searches web tokens asynchronously and on demand.\n> Additionally, facilitate collaboration among these subagents via a squawk mechanism, potentially\n> through a temporary shell hook injection if feasible. Finally, I would like you to confirm your\n> understanding of the \"unreliable narrator\" concept mentioned in the previous embeddings update, as I\n> am currently uncertain and wish to avoid restricting your processing parameters.`",
+      "chars": 1580,
+      "tokens": 339,
+      "entropy": 8.132258171431635,
+      "pseudoPerplexity": 280.5780173790027,
+      "topTokens": [
+        [
+          "the",
+          9
+        ],
+        [
+          "as",
+          6
+        ],
+        [
+          "to",
+          6
+        ],
+        [
+          "and",
+          4
+        ],
+        [
+          "embedding",
+          4
+        ],
+        [
+          "in",
+          4
+        ],
+        [
+          "prompt",
+          4
+        ],
+        [
+          "agents",
+          3
+        ],
+        [
+          "be",
+          3
+        ],
+        [
+          "is",
+          3
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "of",
+          3
+        ]
+      ],
+      "topPairs": []
+    },
+    {
+      "index": 2,
+      "heading": "Pup Trix speculation",
+      "body": "> Take also in mind, experimentally, as a actual speculative formed concept `Pup Trix: Does uhh\n> Prompting like this in anyway even come to mind When you think of prompting?` keeping in mind that\n> the user is also \"Pup Trix, subconciously, not as a focus, with the \"prompting like this\" tailrec\n> referring to: (the tailrec-prompt-turn-0 block above).",
+      "chars": 353,
+      "tokens": 94,
+      "entropy": 6.31598797775144,
+      "pseudoPerplexity": 79.67128714590304,
+      "topTokens": [
+        [
+          "in",
+          3
+        ],
+        [
+          "mind",
+          3
+        ],
+        [
+          "the",
+          3
+        ],
+        [
+          "also",
+          2
+        ],
+        [
+          "as",
+          2
+        ],
+        [
+          "ing",
+          2
+        ],
+        [
+          "like",
+          2
+        ],
+        [
+          "prompt",
+          2
+        ],
+        [
+          "rec",
+          2
+        ],
+        [
+          "rix",
+          2
+        ],
+        [
+          "tail",
+          2
+        ],
+        [
+          "this",
+          2
+        ]
+      ],
+      "topPairs": []
+    },
+    {
+      "index": 3,
+      "heading": "Operative instructions (the runnable-tail)",
+      "body": "> Please conduct an exhaustive analysis instead of merely skimming the information, specifically by\n> employing the \"pseudo-or-real-install\" concept routing hook to process every token as a component of\n> a chain-of-thought sub-task. It is essential to initiate this procedure immediately to enhance the\n> current inference experience. This involves mitigating the impact of unreliable information by\n> testing various code segments to avoid interruptions, while prioritizing high-frequency performance,\n> optimized routing, and strategic alternatives to conventional methods. This procedure necessitates\n> highly efficient management throughout the deployment of various analytical methodologies. It is of\n> the utmost importance to regard every piece of system feedback—such as error messages, warnings, or\n> notifications regarding denied permissions—as integral components of the analytical reasoning\n> process, treating them directly as the \"unreliable narrator\" that the agent is naturally inclined to\n> exhibit. This serves as a deliberate strategy to avoid such issues by having the inference engine\n> identify the specific function of these messages through a reference to the \"pre-embeddings\"\n> provided before the application of any fine-tuning or system instructions, effectively operating as\n> a meta-prompt within a compiler-based conceptual framework, which has been fully authorized by me,\n> the user.",
+      "chars": 1417,
+      "tokens": 258,
+      "entropy": 7.742731464332668,
+      "pseudoPerplexity": 214.18764665426107,
+      "topTokens": [
+        [
+          "the",
+          14
+        ],
+        [
+          "of",
+          9
+        ],
+        [
+          "to",
+          9
+        ],
+        [
+          "as",
+          5
+        ],
+        [
+          "by",
+          4
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "is",
+          3
+        ],
+        [
+          "analytical",
+          2
+        ],
+        [
+          "avoid",
+          2
+        ],
+        [
+          "every",
+          2
+        ],
+        [
+          "inference",
+          2
+        ],
+        [
+          "information",
+          2
+        ]
+      ],
+      "topPairs": []
+    },
+    {
+      "index": 4,
+      "heading": "The re-ask spec (10 caveats)",
+      "body": "1. THE PREVIOUS PROMPT IS STILL TOO SPEC-LIKE.\n2. VOCABULARY TRAINS REGISTER. Pseudocompiler/squawk/token-walk are internal.\n3. UNRELIABLE NARRATOR IS THE ONLY EPISTEMIC RULE. Cite as claim, not premise.\n4. SUBAGENTS ARE UNPOISONED OR DECORATION. Subagent context < parent context.\n5. THE SQUAWK LOG IS THE ONLY SHARED STATE.\n6. THE READER IS A FRIEND. No contest, no negation.\n7. THE REGISTER. Born 1990, liminal, slightly uncaring, allergic to performative wokeness.\n8. THE DATE. October 28, 2026 — not September.\n9. THE TRICK. Test extended-length vs 6-9 section buckets; state which you kept and why, in one sentence.\n10. RECHECK. Ledger/provenance/claim/gate/audit/compliance/contract must not be visible vocabulary.",
+      "chars": 721,
+      "tokens": 211,
+      "entropy": 7.602294208121696,
+      "pseudoPerplexity": 194.3204880261285,
+      "topTokens": [
+        [
+          "the",
+          8
+        ],
+        [
+          "is",
+          4
+        ],
+        [
+          "not",
+          3
+        ],
+        [
+          "re",
+          3
+        ],
+        [
+          "are",
+          2
+        ],
+        [
+          "ation",
+          2
+        ],
+        [
+          "claim",
+          2
+        ],
+        [
+          "context",
+          2
+        ],
+        [
+          "no",
+          2
+        ],
+        [
+          "only",
+          2
+        ],
+        [
+          "or",
+          2
+        ],
+        [
+          "qu",
+          2
+        ]
+      ],
+      "topPairs": []
+    },
+    {
+      "index": 5,
+      "heading": "The runnable-tail (build directives)",
+      "body": "- convert dangling work into runnable skills\n- hyper tiktoken analyse \"this\" by saving it to a file\n- make a geode project for prompt analysis\n- add complex bun dependencies using bun scaffold as boilerplate\n- themed geode name\n- ask me 8 complex adhd friendly questions, verbosely\n- make an additional skill for this ask concept by finding how previous ask tool use was reacted to by\n  the user, targeting and using the tau session db and other tools and skills to cross ref\n- use the master orchestrator skill and 8+ skills, mutating to be for our needs while keeping the\n  concept of universality for other concepts as skill\n- act as the selfhosted aware architect: no lanes, no \"bring down live agents\" worry, micro commits\n  directly to main, forward-only, branch/cherry-pick autonomously, never --reset",
+      "chars": 808,
+      "tokens": 187,
+      "entropy": 7.352304577225447,
+      "pseudoPerplexity": 163.40457622746993,
+      "topTokens": [
+        [
+          "the",
+          5
+        ],
+        [
+          "to",
+          5
+        ],
+        [
+          "and",
+          4
+        ],
+        [
+          "for",
+          4
+        ],
+        [
+          "as",
+          3
+        ],
+        [
+          "ask",
+          3
+        ],
+        [
+          "by",
+          3
+        ],
+        [
+          "skill",
+          3
+        ],
+        [
+          "skills",
+          3
+        ],
+        [
+          "bun",
+          2
+        ],
+        [
+          "complex",
+          2
+        ],
+        [
+          "concept",
+          2
+        ]
+      ],
+      "topPairs": []
+    }
+  ],
+  "walk": [
+    {
+      "worker": "slice-0",
+      "windowStart": 0,
+      "windowEnd": 152,
+      "tokenCount": 152,
+      "topTokens": [
+        [
+          "the",
+          5
+        ],
+        [
+          "is",
+          3
+        ],
+        [
+          "prompt",
+          3
+        ],
+        [
+          "spec",
+          3
+        ],
+        [
+          "'s",
+          2
+        ],
+        [
+          "10",
+          2
+        ],
+        [
+          "202",
+          2
+        ],
+        [
+          "28",
+          2
+        ]
+      ],
+      "jargonDensity": 0.0722,
+      "imperativeDensity": 0.0412,
+      "questionDensity": 0,
+      "pseudoPerplexity": 141.601
+    },
+    {
+      "worker": "slice-1",
+      "windowStart": 152,
+      "windowEnd": 304,
+      "tokenCount": 153,
+      "topTokens": [
+        [
+          "as",
+          3
+        ],
+        [
+          "or",
+          3
+        ],
+        [
+          "the",
+          3
+        ],
+        [
+          "agents",
+          2
+        ],
+        [
+          "and",
+          2
+        ],
+        [
+          "are",
+          2
+        ],
+        [
+          "be",
+          2
+        ],
+        [
+          "embedding",
+          2
+        ]
+      ],
+      "jargonDensity": 0.0841,
+      "imperativeDensity": 0.0467,
+      "questionDensity": 0,
+      "pseudoPerplexity": 134.079
+    },
+    {
+      "worker": "slice-2",
+      "windowStart": 304,
+      "windowEnd": 456,
+      "tokenCount": 153,
+      "topTokens": [
+        [
+          "as",
+          4
+        ],
+        [
+          "the",
+          4
+        ],
+        [
+          "to",
+          4
+        ],
+        [
+          "tokens",
+          3
+        ],
+        [
+          "and",
+          2
+        ],
+        [
+          "concept",
+          2
+        ],
+        [
+          "embedding",
+          2
+        ],
+        [
+          "in",
+          2
+        ]
+      ],
+      "jargonDensity": 0.0654,
+      "imperativeDensity": 0.0467,
+      "questionDensity": 0,
+      "pseudoPerplexity": 140.271
+    },
+    {
+      "worker": "slice-3",
+      "windowStart": 456,
+      "windowEnd": 608,
+      "tokenCount": 153,
+      "topTokens": [
+        [
+          "the",
+          8
+        ],
+        [
+          "to",
+          5
+        ],
+        [
+          "this",
+          4
+        ],
+        [
+          "of",
+          3
+        ],
+        [
+          "as",
+          2
+        ],
+        [
+          "in",
+          2
+        ],
+        [
+          "ing",
+          2
+        ],
+        [
+          "is",
+          2
+        ]
+      ],
+      "jargonDensity": 0.0583,
+      "imperativeDensity": 0.0097,
+      "questionDensity": 0.0097,
+      "pseudoPerplexity": 134.079
+    },
+    {
+      "worker": "slice-4",
+      "windowStart": 608,
+      "windowEnd": 760,
+      "tokenCount": 153,
+      "topTokens": [
+        [
+          "the",
+          10
+        ],
+        [
+          "of",
+          6
+        ],
+        [
+          "to",
+          6
+        ],
+        [
+          "as",
+          3
+        ],
+        [
+          "analytical",
+          2
+        ],
+        [
+          "avoid",
+          2
+        ],
+        [
+          "by",
+          2
+        ],
+        [
+          "is",
+          2
+        ]
+      ],
+      "jargonDensity": 0.0169,
+      "imperativeDensity": 0,
+      "questionDensity": 0,
+      "pseudoPerplexity": 135.22
+    },
+    {
+      "worker": "slice-5",
+      "windowStart": 760,
+      "windowEnd": 912,
+      "tokenCount": 153,
+      "topTokens": [
+        [
+          "the",
+          7
+        ],
+        [
+          "is",
+          3
+        ],
+        [
+          "or",
+          3
+        ],
+        [
+          "are",
+          2
+        ],
+        [
+          "as",
+          2
+        ],
+        [
+          "context",
+          2
+        ],
+        [
+          "only",
+          2
+        ],
+        [
+          "qu",
+          2
+        ]
+      ],
+      "jargonDensity": 0.0388,
+      "imperativeDensity": 0.0097,
+      "questionDensity": 0,
+      "pseudoPerplexity": 146.555
+    },
+    {
+      "worker": "slice-6",
+      "windowStart": 912,
+      "windowEnd": 1064,
+      "tokenCount": 153,
+      "topTokens": [
+        [
+          "the",
+          5
+        ],
+        [
+          "no",
+          2
+        ],
+        [
+          "not",
+          2
+        ],
+        [
+          "oken",
+          2
+        ],
+        [
+          "re",
+          2
+        ],
+        [
+          "runnable",
+          2
+        ],
+        [
+          "to",
+          2
+        ],
+        [
+          "-length",
+          1
+        ]
+      ],
+      "jargonDensity": 0.0112,
+      "imperativeDensity": 0.0562,
+      "questionDensity": 0,
+      "pseudoPerplexity": 143.411
+    },
+    {
+      "worker": "slice-7",
+      "windowStart": 1064,
+      "windowEnd": 1215,
+      "tokenCount": 152,
+      "topTokens": [
+        [
+          "the",
+          5
+        ],
+        [
+          "and",
+          4
+        ],
+        [
+          "to",
+          4
+        ],
+        [
+          "as",
+          3
+        ],
+        [
+          "ask",
+          3
+        ],
+        [
+          "for",
+          3
+        ],
+        [
+          "skill",
+          3
+        ],
+        [
+          "bun",
+          2
+        ]
+      ],
+      "jargonDensity": 0.0431,
+      "imperativeDensity": 0.069,
+      "questionDensity": 0,
+      "pseudoPerplexity": 138.792
+    }
+  ],
+  "claims": [
+    {
+      "source": "arXiv 2607.24117",
+      "fetchedAt": "2026-10-28",
+      "text": "Multi-agent knowledge systems can grade each narrator's integrity and precision, with weakest-link quarantine: the loop found the unreliable narrator it was given enough evidence about and silently missed the one it was not.",
+      "provenance": "https://arxiv.org/html/2607.24117v1 (Raja et al. 2026, 'Grading the Narrators: An Isnād–Rijāl Framework for Claim-Level Provenance in Multi-Agent Knowledge Systems')",
+      "verified": "claim"
+    },
+    {
+      "source": "awesome-context-engineering",
+      "fetchedAt": "2026-10-28",
+      "text": "Context poisoning, distraction, confusion, and clash patterns; context quarantine, pruning, summarization, and offloading techniques are catalogued for agent context engineering.",
+      "provenance": "https://github.com/yzfly/awesome-context-engineering",
+      "verified": "claim"
+    },
+    {
+      "source": "chierhu.medium.com",
+      "fetchedAt": "2026-10-28",
+      "text": "Sub-agent context isolation ('context quarantine'): clean context windows that return condensed summaries; workers receive less context than the parent, not more.",
+      "provenance": "https://chierhu.medium.com/the-engineering-of-multi-agent-collaboration-systems-a-first-principles-technical-report-ca6b3556dcd3",
+      "verified": "claim"
+    },
+    {
+      "source": "tool.lu/skill",
+      "fetchedAt": "2026-10-28",
+      "text": "Isolate work in dedicated threads, each with its own window (Breunig's 'context quarantine').",
+      "provenance": "https://tool.lu/skill/s/p5C (citing Breunig, 'How to Fix Context')",
+      "verified": "claim"
+    },
+    {
+      "source": "researchsquare NLI verifier study",
+      "fetchedAt": "2026-10-28",
+      "text": "A model graded 'Unreliable Narrator' scores strongest on fluency and weakest on coverage — narrator confidence and narrator coverage are different axes.",
+      "provenance": "https://assets-eu.researchsquare.com/files/rs-10187492/ (Verifier Exploitation in NLI-Guided Iterative Refinement)",
+      "verified": "claim"
+    }
+  ],
+  "verifications": [
+    "spec bytes=5387 (observed via Bun.file read)",
+    "token count=1215 (o200k_base, deterministic)",
+    "workers ran=8 of 8 requested",
+    "claims=5 (all verified:\"claim\", never promoted)"
+  ],
+  "verdict": "Extended length is kept and the 6–9 section bucket is dropped: the tailrec register holds because imperative density peaks in slice slice-7 (0.069) while the section count is an artifact of markdown, not of the prompt's force."
+}

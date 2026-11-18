@@ -1,5 +1,5 @@
 {
-  "name": "@toxicwind/pseudobrookite",
+  "name": "@geode/pseudobrookite",
   "version": "0.1.0",
   "description": "Geode prompt-forensics pseudocompiler: hyper-tiktoken analysis, token-walking pseudo-subagents, structured squawk log, unreliable-narrator provenance. Turns a prompt into a token IR and compiles it into verified observations.",
   "type": "module",
